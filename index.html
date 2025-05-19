@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kolorowy Chaos</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+
+<body>
+  <canvas id="gameCanvas"></canvas>
+
+  <div id="ui">
+    <span id="score">Wynik: 0</span>
+    <span id="lives">Życia: 3</span>
+  </div>
+
+  <div id="gameOver">
+    <div>Koniec Gry</div>
+    <button id="restart">Spróbuj ponownie</button>
+  </div>
+
+  <div id="startScreen">
+    <div class="startContent">
+      <img src="transparent_sign.png">
+      <div id="lastScore" style="display:none; margin-bottom:1rem;"></div>
+      <div id="highScore" style="display:none; margin-bottom:2rem;"></div>
+      <button id="startButton">Start</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
